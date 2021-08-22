@@ -1,0 +1,23 @@
+.testimonialList_container{
+    background: #ffffff;
+    box-shadow:  5px 5px 10px #ebebeb,
+             -5px -5px 10px #ffffff;
+}
+.testimonial_card{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.testimonial_card img{
+    width: 40%;
+    height: 100%;
+    border-radius: 50%;
+}
+.card_body{
+    display: flex;
+    justify-content: space-between;
+}
+.card_body p{
+    font-size: 10px;
+    font-weight: 700;
+}

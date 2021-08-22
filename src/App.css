@@ -1,0 +1,36 @@
+
+.btn-main{
+  border: none;
+  border-radius:5px;
+  padding: 12px 24px;
+  background:#00acc1;
+  text-transform:uppercase;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing:2px;
+  z-index:1;
+  overflow:hidden;
+  position: relative;
+  transition:0.3s;
+  
+}
+.btn-main:before{
+  content:"";
+  width:0%;
+  height:100%;
+  background:#36464e;
+  position:absolute;
+  transition:0.5s;
+  z-index:-1;
+  bottom:0;
+  right:50%;
+  transform: translate(50%);
+  
+}
+.btn-main:hover:before{
+  width:100%;
+}
+
+
+
